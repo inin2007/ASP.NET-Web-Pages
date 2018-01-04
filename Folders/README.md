@@ -4,5 +4,6 @@ ASP.NET has 3 folder paths: the Href method, the ~ operator, and the Server.MapP
 ## The Href method
 
 ## The ~ operator
-
+Example:
+`var myImages = "~/images";`
 ## The Server.MapPath method
