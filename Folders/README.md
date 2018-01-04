@@ -11,4 +11,5 @@ Example:
 Example:
 
 `var path = "~/data.txt";
+
 var file = Server.MapPath(path);`
