@@ -1,10 +1,10 @@
 ## Some Page Object Properties
-IsPost
+### IsPost
 
-Layout
+### Layout
 
-Page
+### Page
 
-Request
+### Request
 
-Server
+### Server
