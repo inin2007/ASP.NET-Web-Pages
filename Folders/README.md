@@ -10,6 +10,5 @@ Example:
 ## The Server.MapPath method
 Example:
 
-`var path = "~/data.txt";
-
-var file = Server.MapPath(path);`
+`var path = "~/data.txt";`
+`var file = Server.MapPath(path);`
