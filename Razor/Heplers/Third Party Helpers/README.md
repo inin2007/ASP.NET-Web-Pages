@@ -92,7 +92,7 @@ Returns the result of the reCAPTCHA test.
 
 Renders status information about ASP.NET Web Pages.
 
-# Twitter
+## Twitter
 `Twitter.Profile(twitterUserName)`
 
 Renders a Twitter stream for the specified user.
@@ -100,3 +100,62 @@ Renders a Twitter stream for the specified user.
 `Twitter.Search(searchQuery)`
 
 Renders a Twitter stream for the specified search text.
+
+## Video
+`Video.Flash(filename [, width, height])`
+
+Renders a Flash video player for the specified file with optional width and height.
+
+`Video.MediaPlayer(filename [, width, height])`
+
+Renders a Windows Media player for the specified file with optional width and height.
+
+`Video.Silverlight(filename, width, height)`
+
+Renders a Silverlight player for the specified .xap file with required width and height.
+
+## WebCache
+`WebCache.Get(key)`
+
+Returns the object specified by key, or null if the object is not found.
+
+`WebCache.Remove(key)`
+
+Removes the object specified by key from the cache.
+
+`WebCache.Set(key, value [, minutesToCache] [, slidingExpiration])`
+
+Puts value into the cache under the name specified by key.
+
+## WebImage
+`WebImage(path)`
+
+Loads an image from the specified path.
+
+`WebImage.AddImagesWatermark(image)`
+
+Adds the specified image as a watermark.
+
+`WebImage.AddTextWatermark(text)`
+
+Adds the specified text to the image.
+
+`WebImage.FlipHorizontal()` or `WebImage.FlipVertical()`
+
+Flips the image horizontally or vertically.
+
+`WebImage.GetImageFromRequest()`
+
+Loads an image when an image is posted to a page during a file upload.
+
+`WebImage.Resize(width, height)`
+
+Resizes the image.
+
+`WebImage.RotateLeft()` or `WebImage.RotateRight()`
+
+Rotates the image to the left or the right.
+
+`WebImage.Save(path [, imageFormat])`
+
+Saves the image to the specified path.
