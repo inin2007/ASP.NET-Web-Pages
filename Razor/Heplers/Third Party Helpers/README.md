@@ -18,7 +18,7 @@ Passes a search to Bing. To specify the site to search and a title for the searc
 
 `Bing.AdvancedSearchBox([, boxWidth] [, resultWidth] [, resultHeight] [, themeColor] [, locale])`
   
- Displays Bing search results in the page with optional formatting. To specify the site to search and a title for the search box, you  can set the Bing.SiteUrl and Bing.SiteTitle properties. Normally you set these properties in the _AppStart page.
+Displays Bing search results in the page with optional formatting. To specify the site to search and a title for the search box, you  can set the Bing.SiteUrl and Bing.SiteTitle properties. Normally you set these properties in the _AppStart page.
   
 ## Crypto
 `Crypto.Hash(string [, algorithm]) ` or `Crypto.Hash(bytes [, algorithm])`
@@ -40,3 +40,20 @@ Renders UI for uploading files.
 `GamerCard.GetHtml(gamerTag)`
 
 Renders the specified Xbox gamer tag.
+
+## Gravatar Object Reference
+`Gravatar.GetHtml(email [, imageSize] [, defaultImage] [, rating] [, imageExtension] [, attributes])`
+
+Renders the Gravatar image for the specified email address.
+
+## Json
+`Json.Encode(object)`
+
+Converts a data object to a string in the JavaScript Object Notation (JSON) format.
+
+## LinkShare
+`LinkShare.GetHtml(pageTitle [, pageLinkBack] [, twitterUserName] [, additionalTweetText] [, linkSites])`
+
+Renders social networking links using the specified title and optional URL.
+
+## 
