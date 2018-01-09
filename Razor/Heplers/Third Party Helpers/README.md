@@ -86,3 +86,17 @@ Sets public and private keys for the reCAPTCHA service. Normally you set these p
 `ReCaptcha.Validate([, privateKey])`
 
 Returns the result of the reCAPTCHA test.
+
+## ServerInfo
+`ServerInfo.GetHtml()`
+
+Renders status information about ASP.NET Web Pages.
+
+# Twitter
+`Twitter.Profile(twitterUserName)`
+
+Renders a Twitter stream for the specified user.
+
+`Twitter.Search(searchQuery)`
+
+Renders a Twitter stream for the specified search text.
