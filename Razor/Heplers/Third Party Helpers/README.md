@@ -56,4 +56,33 @@ Converts a data object to a string in the JavaScript Object Notation (JSON) form
 
 Renders social networking links using the specified title and optional URL.
 
-## 
+## ModelState
+`ModelStateDictionary.AddError(key, errorMessage)`
+
+Associates an error message with a form field. Use the ModelState helper to access this member.
+
+`ModelStateDictionary.AddFormError(errorMessage)`
+
+Associates an error message with a form. Use the ModelState helper to access this member.
+
+`ModelStateDictionary.IsValid`
+
+Returns true if there are no validation errors. Use the ModelState helper to access this member.
+
+## ObjectInfo
+`ObjectInfo.Print(value [, depth] [, enumerationLength])`
+
+Renders the properties and values of an object and any child objects.
+
+## Recaptcha
+`Recaptcha.GetHtml([, publicKey] [, theme] [, language] [, tabIndex])`
+
+Renders the reCAPTCHA verification test.
+
+`ReCaptcha.PublicKey` and `ReCaptcha.PrivateKey`
+
+Sets public and private keys for the reCAPTCHA service. Normally you set these properties in the _AppStart page.
+
+`ReCaptcha.Validate([, privateKey])`
+
+Returns the result of the reCAPTCHA test.
