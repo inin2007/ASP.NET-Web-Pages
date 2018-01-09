@@ -1,3 +1,5 @@
+## Methods
+
 `Database.Execute(SQLstatement [, parameters])`
 
 Executes SQLstatement (with optional parameters) such as INSERT, DELETE, or UPDATE and returns a count of affected records.
